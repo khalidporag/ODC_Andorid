@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:weightSum="12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_weight="3"
+            android:id="@+id/tvModelMeritPosition"
+            android:padding="4dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="SL.1"/>
+
+        <TextView
+            android:id="@+id/tvModelMeritName"
+            android:padding="4dp"
+            android:layout_weight="6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Name"/>
+
+        <TextView
+            android:layout_weight="3"
+            android:id="@+id/tvModelMeritPoint"
+            android:padding="4dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Point"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/gray_lighten"/>
+
+</LinearLayout>

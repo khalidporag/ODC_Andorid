@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:layout_margin="10dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chapter 1: Enamel ( Total Lecture: 5 )"
+        android:textSize="14sp"
+        android:textColor="@color/black"
+        android:id="@+id/tvChapTitle"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:visibility="visible"
+        android:id="@+id/rvCourseContentDetai2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:listitem="@layout/list_item_course_content_details2"
+        tools:itemCount="5"
+        android:layout_marginTop="5dp"
+        android:scrollbars="vertical" />
+
+</LinearLayout>

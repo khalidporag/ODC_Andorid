@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="12"
+    android:orientation="vertical"
+    android:background="#000000"
+    tools:context=".activity.youtubevideo.YoutubePlayerView">
+
+    <com.google.android.youtube.player.YouTubePlayerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="11.75"
+        android:minHeight="200dp"
+        android:id="@+id/ytPlayer"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <LinearLayout
+        android:id="@+id/video_control"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.25"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="visible"
+        android:weightSum="10">
+
+        <ImageView
+            android:id="@+id/exo_rew"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_margin="0dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:visibility="visible"
+            android:src="@drawable/ic_rew" />
+        <ImageView
+            android:id="@+id/play_video"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_margin="0dp"
+            android:layout_weight="1"
+            android:visibility="visible"
+            android:src="@drawable/ic_play" />
+
+        <ImageView
+            android:id="@+id/pause_video"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_margin="0dp"
+            android:layout_weight="1"
+            android:visibility="gone"
+            android:background="@null"
+            android:src="@drawable/ic_pause" />
+
+
+        <ImageView
+            android:id="@+id/exo_ffwd"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_margin="0dp"
+            android:layout_weight="1"
+            android:visibility="visible"
+            android:background="@null"
+            android:src="@drawable/ic_ff" />
+        <SeekBar
+            android:id="@+id/video_seekbar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="6"
+            android:max="100"
+            android:visibility="visible"
+            android:progress="0" />
+
+        <TextView
+            android:id="@+id/play_time"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:text="--:--"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+
+</LinearLayout>

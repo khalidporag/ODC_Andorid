@@ -1,0 +1,3 @@
+payment status needs to show in payment history
+Book download option in menu
+How to show free lecture videos 

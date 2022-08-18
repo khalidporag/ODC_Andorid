@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Pure Basic</string>
+    <string name="loading">Loading</string>
+    <string name="account_has_blocked">Account Blocked!</string>
+    <string name="already_have_an_account">Already have an account</string>
+    <string name="no_data_found">No Data Found!</string>
+    <string name="drawer_open">Menu Open</string>
+    <string name="drawer_close">Menu Close</string>
+    <string name="bdt_symbol">৳</string>
+    <string name="home">Home</string>
+    <string name="pure_basic">Pure Basic Official</string>
+    <string name="live_exam">Online Exam</string>
+    <string name="result">Result</string>
+    <string name="profile">Profile</string>
+    <string name="dentube">Dentube</string>
+    <string name="exam">Exam</string>
+    <string name="exam_history">Exam History</string>
+    <string name="rate_us">Rate us</string>
+    <string name="book_list">Book List</string>
+    <string name="guidelines">Guidelines</string>
+    <string name="chat">Chat</string>
+    <string name="download">Download</string>
+    <string name="more">More</string>
+    <string name="log_out">Log out</string>
+    <string name="change_picture">Change Picture</string>
+    <string name="bcs_exam">BCS Exam</string>
+    <string name="offline_video">Offline Video</string>
+    <string name="workshop">Workshop</string>
+    <string name="diagnostic_centre">Diagnostic Centre</string>
+    <string name="exam_result">Exam Result</string>
+    <string name="select_country">Select Country</string>
+    <string-array name="country">
+        <item>@string/select_country</item>
+        <item>Bangladesh</item>
+        <item>Others</item>
+    </string-array>
+    <string name="view_from"><u>View form</u></string>
+    <string name="default_notification_channel_id">com.purebasicv2.app</string>
+    <string name="api_key">AIzaSyDzUgfXVi9lFOocvRTvBKVl2Im4qITlHJE</string>
+
+</resources>

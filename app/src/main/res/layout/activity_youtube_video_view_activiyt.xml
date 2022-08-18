@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="@color/black"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <include layout="@layout/header_main"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.exoplayer2.ui.PlayerView
+            android:layout_margin="5dp"
+            android:id="@+id/exoPlayerView"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:controller_layout_id="@layout/custom_controller"
+            app:resize_mode="fill"
+            android:background="@android:color/background_dark"
+
+         />
+
+        <ProgressBar
+            android:id="@+id/progress_bar_exo_player"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:visibility="gone"
+            android:layout_centerInParent="true" />
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="details"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:padding="10dp"
+        android:visibility="gone"
+        android:gravity="center"
+        android:id="@+id/tvLectureViewTitle"/>
+
+
+
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#F4F3F0"
+            android:drawableTop="@drawable/pdf"
+            android:paddingBottom="5dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="8dp"
+            android:text="PDF"
+            android:id="@+id/btnLectureViewPdf"
+            android:textColor="#000" />
+
+        <Button
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#F4F3F0"
+            android:drawableTop="@drawable/writing"
+            android:paddingBottom="5dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="8dp"
+            android:text="WRITING"
+            android:id="@+id/btnLectureViewLink"
+            android:textColor="#000" />
+
+        <Button
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#F4F3F0"
+            android:drawableTop="@drawable/link"
+            android:paddingBottom="5dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="8dp"
+            android:text="LINK"
+            android:id="@+id/btnLectureViewLinkTwo"
+            android:textColor="#000" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

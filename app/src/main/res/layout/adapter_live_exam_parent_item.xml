@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/lnrLEWParent"
+            android:background="@drawable/dr_border_radius"
+            android:layout_margin="12dp"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:textColor="@color/black"
+                android:id="@+id/tvLEWName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10sp"
+                android:textSize="18sp"
+                android:text="....."/>
+
+            <TextView
+                android:textColor="@color/black"
+                android:id="@+id/tvLEWType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:textSize="12sp"
+                android:text="....."
+                android:paddingStart="10dp" />
+
+
+            <LinearLayout
+                android:padding="5dp"
+                android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="5dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/dr_shape_rounded"/>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:layout_marginStart="3dp"
+                    android:id="@+id/rvLEQuestionOptions"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_marginTop="2dp"
+                android:visibility="gone"
+                android:textColor="@color/black"
+                android:id="@+id/tvLEWDetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:textSize="14sp"/>
+
+            <ImageView
+                android:visibility="gone"
+                android:id="@+id/btnCheckSubmit"
+                android:layout_margin="5dp"
+                android:layout_gravity="end"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                app:srcCompat="@drawable/ic_baseline_check_circle_outline_24"
+                app:tint="@color/colorPrimary" />
+
+
+        </LinearLayout>
+
+    <View
+        android:visibility="invisible"
+        android:id="@+id/overlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</FrameLayout>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="@string/pure_basic" />
+
+    <item
+        android:id="@+id/nav_profile"
+        android:visible="true"
+        android:icon="@drawable/ic_baseline_account_circle_24"
+        android:title="@string/profile" />
+
+
+    <item
+        android:id="@+id/dentube"
+        android:icon="@drawable/ic_baseline_dentube_24"
+        android:visible="true"
+        android:title="Dentube" />
+
+    <item
+        android:id="@+id/notice"
+        android:icon="@drawable/ic_baseline_notifications_active_24"
+        android:visible="false"
+        android:title="Notice" />
+
+    <item
+        android:id="@+id/paymentHistory"
+        android:icon="@drawable/ic_baseline_payment_24"
+        android:title="Payment History" />
+
+
+    <item
+        android:id="@+id/PureBasicWebsite"
+        android:icon="@drawable/ic_baseline_extension_24"
+        android:title="Pure Basic Website" />
+
+
+    <item
+        android:id="@+id/contact"
+        android:icon="@drawable/ic_baseline_contact_phone_24"
+        android:title="Contact Us" />
+
+    <item
+        android:id="@+id/nav_lv_offline_video"
+        android:visible="false"
+        android:icon="@drawable/ic_baseline_cloud_download_24"
+        android:title="@string/offline_video" />
+
+    <item
+        android:id="@+id/download"
+        android:visible="false"
+        android:icon="@drawable/ic_baseline_cloud_download_24"
+        android:title="@string/download" />
+
+
+    <item
+        android:id="@+id/nav_lv_exam"
+        android:visible="false"
+        android:icon="@drawable/ic_baseline_ballot_24"
+        android:title="@string/live_exam" />
+
+    <item
+        android:id="@+id/nav_lv_bcs"
+        android:visible="false"
+        android:icon="@drawable/ic_baseline_ballot_24"
+        android:title="@string/bcs_exam" />
+
+    <item
+        android:id="@+id/nav_lv_exam_history"
+        android:visible="false"
+        android:icon="@drawable/ic_baseline_history_24"
+        android:title="@string/exam_history" />
+
+
+    <item
+        android:id="@+id/nav_lv_model_test_result"
+        android:visible="false"
+        android:icon="@drawable/ic_baseline_assignment_turned_in_24"
+        android:title="@string/exam_result" />
+
+
+    <item
+        android:id="@+id/chat"
+        android:icon="@drawable/ic_baseline_chat_24"
+        android:title="@string/chat" />
+
+
+
+
+
+
+
+    <item android:title="@string/more">
+        <menu>
+
+            <item
+                android:id="@+id/guidelines"
+                android:icon="@drawable/ic_baseline_help_24"
+                android:title="@string/guidelines" />
+
+
+            <item
+                android:id="@+id/book_list"
+                android:icon="@drawable/ic_baseline_menu_book_24"
+                android:title="@string/book_list" />
+
+            <item
+                android:id="@+id/book_download"
+                android:icon="@drawable/ic_baseline_menu_book_24"
+                android:title="Book Download" />
+
+            <item
+                android:id="@+id/DrSarwerBiplob"
+                android:icon="@drawable/ic_baseline_radio_button_checked_24"
+                android:title="Dr Sarwer Biplob" />
+
+            <item
+                android:id="@+id/nav_lv_enilkhet"
+                android:icon="@drawable/ic_baseline_brightness_1_24"
+                android:visible="false"
+                android:title="enilkhet" />
+
+            <item
+                android:id="@+id/nav_lv_workshop"
+                android:icon="@drawable/ic_baseline_brightness_1_24"
+                android:visible="false"
+                android:title="@string/workshop" />
+
+            <item
+                android:id="@+id/nav_lv_diagnostic"
+                android:icon="@drawable/ic_baseline_brightness_1_24"
+                android:visible="false"
+                android:title="@string/diagnostic_centre" />
+
+
+
+            <item
+                android:id="@+id/nav_rate"
+                android:icon="@drawable/ic_baseline_stars_24"
+                android:visible="false"
+                android:title="@string/rate_us" />
+l
+            <item
+                android:id="@+id/nav_louout"
+                android:icon="@drawable/ic_baseline_exit_to_app_24"
+                android:title="@string/log_out" />
+        </menu>
+
+    </item>
+
+</menu>

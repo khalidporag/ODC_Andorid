@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <include layout="@layout/header_main"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <WebView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/myWebView"/>
+
+        <include
+            android:id="@+id/lyt_failed"
+            layout="@layout/layout_web_error"
+            android:visibility="gone"/>
+
+        <com.wang.avi.AVLoadingIndicatorView
+            android:id="@+id/avLoading"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:indicatorName="BallClipRotatePulseIndicator"
+            app:indicatorColor="@color/colorAccent"
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>

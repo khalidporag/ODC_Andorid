@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "229251690877",
+    "project_id": "pure-basic",
+    "storage_bucket": "pure-basic.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:229251690877:android:bbdef141e1eebf9b6a1c14",
+        "android_client_info": {
+          "package_name": "com.purebasicv2.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "229251690877-b3to4sju1kv23dhdtecighukrko0vvap.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDo0qAnnv_Q0UuNLRgrFuekGwpNR7QNRvc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "229251690877-b3to4sju1kv23dhdtecighukrko0vvap.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

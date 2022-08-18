@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutExpand"
+    android:layout_width="match_parent"
+    android:visibility="gone"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/layoutF5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvF5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_regular"
+            android:gravity="center"
+            android:minHeight="40dp"
+            android:padding="10dp"
+            android:textColor="@color/black_light"
+            android:textSize="16sp"
+            tools:text="Model Test Batch 2021" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginHorizontal="20dp"
+            android:background="@color/black_light">
+
+        </View>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutF6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvF6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_regular"
+            android:gravity="center"
+            android:minHeight="40dp"
+            android:padding="10dp"
+            android:textColor="@color/black_light"
+            android:textSize="16sp"
+            tools:text="Model Test Batch 2021" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginHorizontal="20dp"
+            android:background="@color/black_light">
+
+        </View>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutF7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvF7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_regular"
+            android:gravity="center"
+            android:minHeight="40dp"
+            android:padding="10dp"
+            android:textColor="@color/black_light"
+            android:textSize="16sp"
+            tools:text="Model Test Batch 2021" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginHorizontal="20dp"
+            android:background="@color/black_light">
+
+        </View>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutF8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvF8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_regular"
+            android:gravity="center"
+            android:minHeight="40dp"
+            android:padding="10dp"
+            android:textColor="@color/black_light"
+            android:textSize="16sp"
+            tools:text="Model Test Batch 2021" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginHorizontal="20dp"
+            android:background="@color/black_light">
+
+        </View>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutF9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvF9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_regular"
+            android:gravity="center"
+            android:minHeight="40dp"
+            android:padding="10dp"
+            android:textColor="@color/black_light"
+            android:textSize="16sp"
+            tools:text="Model Test Batch 2021" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginHorizontal="20dp"
+            android:background="@color/black_light">
+
+        </View>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutF10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvF10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_regular"
+            android:gravity="center"
+            android:minHeight="40dp"
+            android:padding="10dp"
+            android:textColor="@color/black_light"
+            android:textSize="16sp"
+            tools:text="Model Test Batch 2021" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginHorizontal="20dp"
+            android:background="@color/black_light">
+
+        </View>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutFLink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvFLink"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:fontFamily="@font/poppins_regular"
+            android:gravity="center"
+            android:minHeight="40dp"
+            android:padding="10dp"
+            android:textColor="@color/skyblue"
+            android:textColorLink="@color/skyblue"
+            android:textSize="16sp"
+            android:text="View form"
+             />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginHorizontal="20dp"
+            android:background="@color/black_light">
+
+        </View>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/layoutPromoVideo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center"
+        android:visibility="gone"
+        android:orientation="vertical">
+
+        <WebView
+            android:layout_width="560dp"
+            android:layout_height="315dp"
+            android:id="@+id/myWebView"
+            tools:ignore="WebViewLayout" />
+
+        <ProgressBar
+            android:id="@+id/progressbar"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+
+             />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_below="@+id/myWebView"
+            android:layout_marginHorizontal="20dp"
+            android:background="@color/black_light">
+
+        </View>
+
+    </RelativeLayout>
+
+</LinearLayout>
+
+

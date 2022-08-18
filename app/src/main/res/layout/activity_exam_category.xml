@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.exam.exam_list.ExamCategoryActivity">
+
+    <include layout="@layout/header_main"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:clickable="true"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:background="@drawable/dr_border_radius"
+        android:id="@+id/llRegular"
+        android:visibility="visible"
+        android:layout_below="@+id/llRegular"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:padding="5dp">
+
+
+        <TextView
+            android:id="@+id/tvCategoryName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/poppins_semibold"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:text="Live Exam"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_large" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:weightSum="2"
+        >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:clickable="true"
+            android:background="@drawable/dr_border_radius"
+            android:id="@+id/llExamHistory"
+            android:layout_below="@+id/appbar"
+            android:padding="5dp">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorYellow"
+                android:fontFamily="@font/poppins_semibold"
+                android:gravity="center"
+                android:text="History"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_large" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:clickable="true"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:background="@drawable/dr_border_radius"
+            android:id="@+id/llExamWiseResult"
+            android:layout_below="@+id/llExamWiseResult"
+            android:padding="5dp">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorOrangeLight"
+                android:fontFamily="@font/poppins_semibold"
+                android:gravity="center"
+                android:text="Result"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_large" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="center"
+        android:clickable="true"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:background="@drawable/dr_border_radius"
+        android:id="@+id/llExamPlus"
+        android:layout_marginTop="15dp"
+        android:padding="5dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/greenDeep"
+            android:fontFamily="@font/poppins_semibold"
+            android:gravity="center"
+            android:text="Exam Plus"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_large" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

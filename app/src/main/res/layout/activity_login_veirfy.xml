@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Verification"
+        android:textColor="@color/white"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:padding="5dp"/>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_medium"
+                android:includeFontPadding="false"
+                android:text="Code will send to"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/tvOTPNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/poppins_medium"
+                android:includeFontPadding="false"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"/>
+
+            <com.mukesh.OtpView
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/otp_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                app:OtpItemCount="4"
+                app:OtpLineColor="@color/gray_lighten"
+                app:OtpViewType="line"
+                />
+
+
+            <TextView
+                android:id="@+id/tvOtpError"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_regular"
+                android:includeFontPadding="false"
+                android:text="Invalid OTP"
+                android:textColor="@color/red"
+                android:textSize="12sp"
+
+                android:layout_margin="15dp"
+                android:visibility="gone"/>
+
+
+            <Button
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                android:background="@drawable/button_primary"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnRegSendOTP"
+                android:textAllCaps="false"
+                android:text="Send OTP code" />
+
+
+            <com.wang.avi.AVLoadingIndicatorView
+                android:id="@+id/avLoadingRegSG1"
+                android:layout_width="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:visibility="invisible"
+                app:indicatorColor="@color/colorPrimary"
+                app:indicatorName="BallPulseIndicator" />
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

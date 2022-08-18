@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="@color/white"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/header_main"/>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvExamResultQuestion"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Question: 0"/>
+
+        <TextView
+            android:id="@+id/tvExamResultPoint"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Marks: 0"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:visibility="gone"
+        android:layout_marginTop="5dp"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:paddingLeft="5dp"
+            android:textColor="@color/white"
+            android:background="@color/green"
+            android:id="@+id/tvExamResultRightAnswer"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Right: 0"
+            android:paddingStart="5dp" />
+
+        <TextView
+            android:paddingLeft="5dp"
+            android:textColor="@color/white"
+            android:background="@color/red"
+            android:id="@+id/tvExamResultWrongAnswer"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Wrong: 0"
+            android:paddingStart="5dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvExamResultAnswered"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Answered: 0"/>
+
+        <TextView
+            android:id="@+id/tvExamResultUnAnswered"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Unanswered: 0"/>
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/gray_lighten"/>
+
+    <ProgressBar
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/proLiveExamResult"/>
+
+    <Button
+        android:visibility="gone"
+        android:textColor="@color/white"
+        android:background="@drawable/button_primary"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Solve Sheet"
+        android:id="@+id/btnSolveSheet001"/>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rvLiveExamResult"
+        android:scrollbars="vertical"/>
+
+
+</LinearLayout>

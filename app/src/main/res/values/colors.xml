@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#10ACE8</color>
+    <color name="colorPrimaryDark">#0C95CA</color>
+    <color name="colorAccent">#E41972</color>
+    <color name="colorPrimaryLight">#F8C9D1</color>
+    <color name="colorGreenDark">#4DB29D</color>
+    <color name="white">#FFFFFF</color>
+    <color name="whiteLight">#EDEDED</color>
+    <color name="black_light">#727272</color>
+    <color name="greenDeep">#12BD6A</color>
+    <color name="red">#d90412</color>
+    <color name="black">#000000 </color>
+    <color name="gray">#757575 </color>
+    <color name="gray_lighten">#e0e0e0  </color>
+    <color name="blue">#0420d9</color>
+    <color name="green">#04d912</color>
+    <color name="colorGray">#ffdedede</color>
+    <color name="colorGrayDark">#ffd6d6d6</color>
+    <color name="colorLightGray">#fffafafa</color>
+    <color name="colorAboutApp">#e53935</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorInvite">#00e676</color>
+    <color name="colorOrange">#ff3d00</color>
+    <color name="colorOrangeDark">#dd2c00</color>
+    <color name="colorOrangeLight">#fa8264</color>
+    <color name="colorPrivacy">#2962ff</color>
+    <color name="colorSelected">#353535</color>
+    <color name="colorUnselected">#807f7f</color>
+    <color name="colorUnselectedLight">#dbdbdb</color>
+    <color name="colorViolet">#ab47bc</color>
+    <color name="colorYellow">#ffc107</color>
+    <color name="colorYellowLight">#ffeb3b</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="grayColor">#ffcfcfcf</color>
+    <color name="light_gray">#eff0f5</color>
+    <color name="skyblue">#ff6599ff</color>
+    <color name="signupColor">#066e8a</color>
+    <color name="pay_now_color">#e0f0ff</color>
+</resources>
